@@ -1,6 +1,6 @@
 FROM php:8.2-fpm-alpine
 
-# Install extension lengkap untuk PHP native, CodeIgniter, Laravel, dll
+# Install extension lengkap untuk PHP
 RUN apk add --no-cache \
     $PHPIZE_DEPS \
     bash curl git unzip \
